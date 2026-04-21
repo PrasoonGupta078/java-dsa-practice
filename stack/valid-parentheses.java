@@ -1,3 +1,14 @@
+// Problem: Valid Parentheses
+// Platform: LeetCode
+// Difficulty: Easy
+// Link: https://leetcode.com/problems/valid-parentheses/
+// Approach: Stack
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+
+// Approach Explanation:
+// Use a stack to store opening brackets.
+// For every closing bracket, check if it matches the top of stack.
 import java.util.*;
 class Solution {
     public boolean isValid(String s) {
